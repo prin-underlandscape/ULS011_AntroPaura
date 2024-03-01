@@ -1,0 +1,284 @@
+{
+  "type": "umap",
+  "properties": {
+    "zoom": 15,
+    "easing": false,
+    "licence": "",
+    "miniMap": false,
+    "overlay": {},
+    "slideshow": {},
+    "tilelayer": {
+      "tms": false,
+      "name": "OSM OpenTopoMap",
+      "maxZoom": 20,
+      "minZoom": 1,
+      "attribution": "Kartendaten: © [[https://openstreetmap.org/copyright|OpenStreetMap]]-Mitwirkende, [[http://viewfinderpanoramas.org/|SRTM]] | Kartendarstellung: © [[https://opentopomap.org/|OpenTopoMap]] ([[https://creativecommons.org/licenses/by-sa/3.0/|CC-BY-SA]])",
+      "url_template": "https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png"
+    },
+    "captionBar": false,
+    "description": "",
+    "limitBounds": {},
+    "moreControl": true,
+    "zoomControl": true,
+    "captionMenus": true,
+    "embedControl": true,
+    "scaleControl": true,
+    "searchControl": true,
+    "scrollWheelZoom": true,
+    "datalayersControl": true,
+    "fullscreenControl": true,
+    "displayPopupFooter": false,
+    "permanentCreditBackground": true,
+    "name": "ULS011_AntroPaura"
+  },
+  "layers": [
+    {
+      "type": "FeatureCollection",
+      "features": [],
+      "_umap_options": {
+        "name": "Percorso",
+        "displayOnLoad": true,
+        "browsable": true,
+        "remoteData": {},
+        "color": "Brown",
+        "popupShape": "Panel",
+        "popupTemplate": "Table",
+        "popupContentTemplate": "# {Titolo}\n##   ( [[https://sites.google.com/view/prin-underlandscape/home-page/attivit%C3%A0-sul-campo/{Link}|link]]) \n{Descrizione}\n--- \n**Lunghezza** (km): {Lunghezza}\n**Durata**: {Durata}\n**Dislivello in salita** (m): {Dislivello in salita}\n**Dislivello in discesa** (m): {Dislivello in discesa} \n--- \nRegistrato il {Data} alle {Ora} \ncon {Strumento} \nda {Autore}"
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [],
+      "_umap_options": {
+        "name": "POI",
+        "displayOnLoad": true,
+        "browsable": true,
+        "remoteData": {},
+        "color": "Brown",
+        "iconClass": "Ball",
+        "popupShape": "Panel",
+        "popupTemplate": "Table",
+        "popupContentTemplate": "# {Titolo} \n{{{Foto}|300}} \n##   ( [[https://sites.google.com/view/prin-underlandscape/home-page/attivit%C3%A0-sul-campo/{Link}|link]]) \n{Descrizione} \n**Altitudine** (m): {Altitudine} \n--- \nScattata il {Data} alle {Ora} \ncon {Strumento} \nda {Autore}"
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [],
+      "_umap_options": {
+        "name": "QRtag",
+        "displayOnLoad": true,
+        "browsable": true,
+        "remoteData": {},
+        "color": "Brown",
+        "iconClass": "Ball",
+        "popupShape": "Panel",
+        "popupTemplate": "Table",
+        "popupContentTemplate": "# {Titolo} \n{{{Foto}|300}} \n \n{Testo} \n \nFID: {fid}"
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "Sito": "ULS003",
+            "Provincia": "Lucca",
+            "Comune": "Bagni di Lucca",
+            "Toponimo": "Rio di Castello",
+            "Microtoponimo": "",
+            "Strade d'accesso": "da via Debbio, imbocco del sentiero CAI 386",
+            "Altri elementi di localizzazione": "anziché guadare, proseguire lungo il letto del rio, dopo circa 300 m seguire una traccia sul versante sulla sinistra del rio, salire circa 20 m (120 m a sud dalla Piella)",
+            "Tipologia sito": "ND",
+            "Descrizione": "Riparo di piccole dimensioni posto a circa 150 m a sud della Buca della Piella, su terrazzo fluviare a circa 20 m sopra l'attuale corso del rio di Castello. Area: circa 15 m quadrati",
+            "Cronologia iniziale": "ND (Non determinata)",
+            "Cronologia finale": "ND (Non determinata)",
+            "Reperti geologici": "NO",
+            "Reperti organici": "NO",
+            "Altri manufatti": "",
+            "Accessibilità": "Media difficoltà",
+            "Copertura rete mobile": "Parziale",
+            "Copertura GPS": "Parziale",
+            "Data": "30/04/2023",
+            "Bibliografia": "",
+            "ulsp_type": "Sito",
+            "Titolo": "Riparo vicino Piella",
+            "Altitudine": "390",
+            "Definizione": "Riparo sotto roccia",
+            "Reperti ceramici": "NO",
+            "Sicurezza": "",
+            "Foto": "",
+            "Link": "",
+            "Strumento": "",
+            "Ora": "",
+            "_umap_options": {
+              "popupTemplate": "Default"
+            }
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              10.683963473744733,
+              44.03564745965847,
+              0
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "Sito": "ULS005",
+            "Provincia": "Lucca",
+            "Comune": "Bagni di Lucca",
+            "Toponimo": "Strette di Cocciglia",
+            "Microtoponimo": "Arzale",
+            "Strade d'accesso": "sentiero del canyon park sulla sponda sinistra del Torrente Lima, con partenza da Ponte Nero",
+            "Altri elementi di localizzazione": "al di sopra della struttura del gorile",
+            "Tipologia sito": "Frequentazione antropica",
+            "Descrizione": "Grotta posta sulla sinistra della Lima all'altezza delle Strette di Cocciglia, posta sopra importante apprestamento in muratura (gorile). Parete coperta da vegetazione, si intravede una grande apertura; seguono altre aperture meno profonde. Secondo studioso locale, da questa potrebbero provenire resti medievali.",
+            "Cronologia iniziale": "Basso medioevo (1000-1492 d.C.)",
+            "Cronologia finale": "ND (Non determinata)",
+            "Reperti geologici": "NO",
+            "Reperti organici": "NO",
+            "Altri manufatti": "",
+            "Accessibilità": "Media difficoltà",
+            "Copertura rete mobile": "Completa",
+            "Copertura GPS": "Completa",
+            "Data": "20/05/2023",
+            "Bibliografia": "",
+            "ulsp_type": "Sito",
+            "Titolo": "Grotta di Arzale",
+            "Altitudine": "270",
+            "Definizione": "Grotta",
+            "Reperti ceramici": "SI",
+            "Sicurezza": "",
+            "Foto": "",
+            "Link": "",
+            "Strumento": "",
+            "Ora": "",
+            "_umap_options": {
+              "popupTemplate": "Default"
+            }
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              10.664308007107415,
+              44.04140000105849,
+              365
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "Sito": "ULS006",
+            "Provincia": "Lucca",
+            "Comune": "Bagni di Lucca",
+            "Toponimo": "Giardinetto",
+            "Microtoponimo": "",
+            "Strade d'accesso": "strada Statale 12 del Brennero",
+            "Altri elementi di localizzazione": "in proprietà privata, alle spalle del civico 116",
+            "Tipologia sito": "Frequentazione antropica",
+            "Descrizione": "Riparo sotto roccia con ampio ingresso, rialzato rispetto al fondovalle, oggi utilizzato dal proprietario del terreno come rimessa. Prima esplorazione nel maggio 1952 con rinvenimento di carboni, ceramiche depurate e d’impasto della prima età del ferro, resti di fauna olocenica. Imboccatura: 10 m circa; h lato NW: 3 m circa",
+            "Cronologia iniziale": "Età del ferro (950-720 a.C.)",
+            "Cronologia finale": "Età romana repubblicana (509-27 a.C.)",
+            "Reperti geologici": "NO",
+            "Reperti organici": "SI",
+            "Altri manufatti": "",
+            "Accessibilità": "Facile",
+            "Copertura rete mobile": "Parziale",
+            "Copertura GPS": "Parziale",
+            "Data": "20/05/2023",
+            "Bibliografia": "Atlante 1992, p. 28",
+            "ulsp_type": "Sito",
+            "Titolo": "Riparo di Giardinetto",
+            "Altitudine": "280",
+            "Definizione": "Riparo sotto roccia",
+            "Reperti ceramici": "SI",
+            "Sicurezza": "",
+            "Foto": "",
+            "Link": "",
+            "Strumento": "",
+            "Ora": "",
+            "_umap_options": {
+              "popupTemplate": "Default"
+            }
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              10.673172386721628,
+              44.04417020739956,
+              0
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "Sito": "ULS011",
+            "Provincia": "Lucca",
+            "Comune": "Borgo a Mozzano ",
+            "Toponimo": "Gioviano, Pietreta",
+            "Microtoponimo": "",
+            "Strade d'accesso": "variante Strada Provinciale Calavorno-Campia, detta Lodovica",
+            "Altri elementi di localizzazione": "circa 500 m dopo la svolta per Gioviano",
+            "Tipologia sito": "Frequentazione antropica",
+            "Descrizione": "Grotta con ingresso orientato verso N-NE, a una decina di metri dal piano stradale; è costituita da un cunicolo di circa 30 m che si sviluppa a forma di S italica, restringendosi sul fondo. Indagata negli anni '70 del XX secolo nel tratto centrale, ha restituito frammenti ceramici e ossa (umane e animali) attestando una fretazione etrusco-ligure. Lunghezza: 30 m circa",
+            "Cronologia iniziale": "Civiltà preromane (720- 89 a.C.)",
+            "Cronologia finale": "Età romana repubblicana (509-27 a.C.)",
+            "Reperti geologici": "NO",
+            "Reperti organici": "SI",
+            "Altri manufatti": "",
+            "Accessibilità": "Facile",
+            "Copertura rete mobile": "Completa",
+            "Copertura GPS": "Completa",
+            "Data": "20/05/2023",
+            "Bibliografia": "",
+            "ulsp_type": "Sito",
+            "Titolo": "Antro della Paura",
+            "Altitudine": "208",
+            "Definizione": "Grotta",
+            "Reperti ceramici": "SI",
+            "Sicurezza": "",
+            "Foto": "",
+            "Link": "",
+            "Strumento": "",
+            "Ora": "",
+            "_umap_options": {
+              "popupTemplate": "Default"
+            }
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              10.52129400716191,
+              44.017253001069406,
+              198.1
+            ]
+          }
+        }
+      ],
+      "_umap_options": {
+        "name": "Sito",
+        "displayOnLoad": true,
+        "browsable": true,
+        "remoteData": {},
+        "color": "DarkBlue",
+        "iconClass": "Ball",
+        "popupShape": "Panel",
+        "popupTemplate": "Table",
+        "popupContentTemplate": "# SITO {Sito}\n{{{Foto}|300}}\n## {Titolo} ( [[https://sites.google.com/view/prin-underlandscape/{Link}|link]])\n{Descrizione}\n---\n**Tipologia**: {Tipologia sito}\n**Definizione**: {Definizione}\n**Cronologia iniziale**: {Cronologia iniziale}\n**Cronologia finale**: {Cronologia finale}\n**Reperti ceramici**: {Reperti ceramici}\n**Reperti geologici**: {Reperti geologici}\n**Reperti organici**: {Reperti organici}\n**Altri manufatti**: {Altri manufatti}\n---\n**Altitudine** (m): {Altitudine}\n**Sicurezza**: {Sicurezza}\n**Accessibilità**: {Accessibilità}\n**Copertura rete mobile**: {Copertura rete mobile}\n**Copertura GPS**: {Copertura GPS}\n---\n**Provincia**: {Provincia}\n**Comune**: {Comune}\n**Toponimo**: {Toponimo}\n**Microtoponimo**: {Microtoponimo}\n**Strade d'accesso**: {Strade d'accesso}\n**Altra localizzazione**: {Altri elementi di localizzazione}\n---\n**Prima visita**: {Data} {Ora}\n**Strumento**: {Strumento}\n[[https://sites.google.com/view/prin-underlandscape/home-page/bibliografie/{Sito}|bibliografia]]"
+      }
+    }
+  ],
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      10.52129400716191,
+      44.017253001069406,
+      198.1
+    ]
+  }
+}
